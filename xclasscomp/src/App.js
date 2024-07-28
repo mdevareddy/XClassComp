@@ -1,12 +1,10 @@
-import React from 'react';
-import Counter from './counter';
+import './App.css';
+import Count from './Count';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Counter />
-    </div>
+    <Count />
   );
-};
+}
 
 export default App;
